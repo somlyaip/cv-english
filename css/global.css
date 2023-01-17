@@ -1,0 +1,44 @@
+:root {
+    --border-color: gray;
+    --highlight-color: hsl(51, 100%, 65%);
+    --normal-text-color: hsl(0, 0%, 10%);
+ }
+
+body {
+    font-family: Arial, serif;
+    color: var(--normal-text-color);
+    margin: 0;
+}
+
+p {
+    margin-top: .3em;
+    margin-bottom: .3em;
+}
+
+h2 {
+    border-left: .3em solid var(--normal-text-color);
+    margin-top: .5em;
+    margin-bottom: .7em;
+    padding-left: .5em;
+    font-size: 1.3em;
+}
+
+p, span, strong, em, li {
+    font-size: 10pt;
+}
+
+.flex {
+    display: flex;
+}
+
+#a4page {
+    width: 210mm;
+    height: 297mm;
+    margin: auto;
+}
+
+@media (min-height: 298mm) {
+    #a4page {
+        border: 2px solid lightgray;
+    }
+}

@@ -1,0 +1,56 @@
+aside {
+    height: 967px;
+    width: 70mm;
+    background-color: white;
+    padding-left: 5mm;
+}
+
+aside section {
+    padding-right: .5em;
+}
+
+#education p > * {
+    display: block;
+}
+
+h3 {
+    margin-bottom: 0;
+    font-size: 1.1em;
+}
+
+.tech-skill-group p:first-child {
+    margin-top: 1em;
+}
+
+.tech-skill-group p:first-child strong {
+    font-size: 1.15em;
+}
+
+.skill {
+    padding: 2px;
+    line-height: 1.7em;
+    border-radius: 3px;
+}
+
+.skill.soft {
+    background-color: dimgray;
+    color: whitesmoke;
+}
+
+.skill.tech {
+    background-color: var(--highlight-color);
+    color: rgba(0, 0, 0, .8);
+}
+
+.skill.methodology {
+    background-color: hsl(0, 0%, 87%);
+}
+
+.half-width {
+    width: 50%;
+}
+
+#language-skills > p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
