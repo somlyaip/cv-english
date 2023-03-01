@@ -45,8 +45,12 @@ header {
 }
 
 #contacts a {
-    text-decoration: none;
+    /*text-decoration: none;*/
     color: var(--normal-text-color);
+
+    background: url("../images/external-link-64.png") no-repeat 100% 0;
+    background-size: 13px 13px;
+    padding-right: 15px;
 }
 
 .logo-3th-party-service {
