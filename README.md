@@ -8,3 +8,5 @@ My English CV as a [webpage](https://somlyaip.github.io/cv-english/). Of course,
 1. `./bin/produce-pdf.sh`
 
 > CV in PDF format will be generated into [./output](output) directory.
+
+https://www.princexml.com/doc/server-integration/#prince-docker-image
